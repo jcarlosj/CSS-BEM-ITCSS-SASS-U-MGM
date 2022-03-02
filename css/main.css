@@ -37,3 +37,16 @@ h3 {
         flex-basis: calc( 95vw / 4 );
     }
 }
+
+.social {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    margin: 3rem 0;
+    list-style: none;
+}
+.social img {
+    height: 30px;
+    width: 30px;
+}
