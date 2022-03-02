@@ -1,0 +1,10 @@
+:root {
+    /** Color */
+    --color-h3: gray;
+    /** Border Color */
+    --bdcolor-courses: green;
+    --bdcolor-general: orangered;
+    /** Font size */
+    --fs-h1: 3rem;
+    --fs-h3: 2rem;
+}

@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+}
+header h1 {
+    font-size: var( --fs-h1 );
+}
+h3 {
+    color: var( --color-h3 );
+    font-size: var( --fs-h3 );
+}
