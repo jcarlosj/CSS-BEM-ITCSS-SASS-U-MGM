@@ -1,3 +1,21 @@
-h1 {
-    color: red;
-}
+/** ITCSS: Inverted Triangle architecture for CSS 
+    
+    Directorios del ITCSS
+    - settings: Declaracion de variables (preprocesadores)
+    - tools: Mixins y Funciones (preprocesadores)
+    - generics: Código genérico del proyecto (código propio), reset CSS, CDNs de fuentes e iconos.
+    - elements: Estilos que afectan a elementos HTML (no se incluye elementos anidacos o estilo para clases)
+    - objects: Incluye clases reutilizables (afectan principalmente al Layout)
+    - components: Incluye clases que afectan a c/u de los componentes del sitio (Componentes reusables y autonomos usando metodologías como: BEM, Atomic, OOCSS, SMACSS, SUITCSS).
+    - utilities: Incluye código que sobreescriba estilos de forma significativa, por ejemplo: incompatibilidades con navegadores, implementación de !important (esta última no es recomendada)
+*/
+
+@import 
+    'settings/variables.scss',
+    'tools/tools.scss',
+    'generics/normalize.css',
+    'elements/elements.scss',
+    'objects/objects.scss',
+    'components/components.scss',
+    'utilities/utilities.scss';
+;
