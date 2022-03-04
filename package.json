@@ -1,0 +1,14 @@
+{
+  "name": "itcss-sass",
+  "version": "1.0.0",
+  "description": "Maquetacion usando ITCSS Sass",
+  "scripts": {
+    "sass": "sass --watch ./scss/main.scss ./css/main.css"
+  },
+  "main": "index.js",
+  "author": "Juan Carlos Jiménez Gutiérrez <jcjimenez29@misena.edu.co>",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
+}
